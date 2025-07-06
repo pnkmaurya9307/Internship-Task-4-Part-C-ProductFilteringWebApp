@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "EliteTech",
             price: 1299.99,
             rating: 4.8,
-            imageUrl: "aimage1.jpeg",
+            imageUrl: "Aimage1.jpeg",
             description: "Powerful laptop for professionals, featuring a stunning Retina display and long battery life.",
             inStock: true,
             onSale: false
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "AudioPro",
             price: 199.99,
             rating: 4.5,
-            imageUrl: "aimage2.jpeg",
+            imageUrl: "Aimage2.jpeg",
             description: "Immersive audio experience with noise cancellation and ergonomic design.",
             inStock: true,
             onSale: true
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "DisplayGenius",
             price: 499.00,
             rating: 4.7,
-            imageUrl: "aimage3.jpeg",
+            imageUrl: "Aimage3.jpeg",
             description: "Crisp 4K resolution on a 27-inch display, perfect for gaming and graphic design.",
             inStock: true,
             onSale: false
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "EliteTech",
             price: 249.50,
             rating: 4.2,
-            imageUrl: "aimage4.jpeg",
+            imageUrl: "Aimage4.jpeg",
             description: "Stay connected with notifications, fitness tracking, and heart rate monitoring.",
             inStock: true,
             onSale: false
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "KeyMaster",
             price: 75.00,
             rating: 4.0,
-            imageUrl: "aimage5.jpeg",
+            imageUrl: "Aimage5.jpeg",
             description: "Ergonomic design for comfortable typing, ideal for long work sessions.",
             inStock: false, // Out of stock example
             onSale: false
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "GamerGear",
             price: 59.99,
             rating: 4.6,
-            imageUrl: "aimage6.jpeg",
+            imageUrl: "Aimage6.jpeg",
             description: "High-precision gaming mouse with customizable RGB lighting and programmable buttons.",
             inStock: true,
             onSale: true
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "DataDrive",
             price: 120.00,
             rating: 4.9,
-            imageUrl: "aimage7.jpeg",
+            imageUrl: "Aimage7.jpeg",
             description: "Blazing fast external SSD for quick data transfer and backup.",
             inStock: true,
             onSale: false
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "CamView",
             price: 65.00,
             rating: 4.1,
-            imageUrl: "aimage8.jpeg",
+            imageUrl: "Aimage8.jpeg",
             description: "Crystal clear video calls with autofocus and wide-angle lens.",
             inStock: true,
             onSale: false
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "NetConnect",
             price: 299.00,
             rating: 4.7,
-            imageUrl: "aimage9.jpeg",
+            imageUrl: "Aimage9.jpeg",
             description: "Eliminate dead zones and enjoy seamless Wi-Fi coverage throughout your home.",
             inStock: true,
             onSale: false
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "AudioPro",
             price: 149.99,
             rating: 4.4,
-            imageUrl: "aimage10.jpeg",
+            imageUrl: "Aimage10.jpeg",
             description: "Compact and powerful earbuds with active noise cancellation for on-the-go listening.",
             inStock: true,
             onSale: true
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "EliteTech",
             price: 99.00,
             rating: 3.9,
-            imageUrl: "aimage11.jpeg",
+            imageUrl: "Aimage11.jpeg",
             description: "Centralized control for all your smart home devices.",
             inStock: true,
             onSale: false
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "PowerUp",
             price: 45.00,
             rating: 4.3,
-            imageUrl: "aimage12.jpeg",
+            imageUrl: "Aimage12.jpeg",
             description: "Keep your devices charged on the go with this high-capacity power bank.",
             inStock: true,
             onSale: false
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "ArtCanvas",
             price: 350.00,
             rating: 4.8,
-            imageUrl: "aimage13.jpeg",
+            imageUrl: "Aimage13.jpeg",
             description: "Unleash your creativity with precise stylus input and a vibrant display.",
             inStock: true,
             onSale: false
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "AdventureCam",
             price: 180.00,
             rating: 4.5,
-            imageUrl: "aimage14.jpeg",
+            imageUrl: "Aimage14.jpeg",
             description: "Capture your adventures in stunning 4K detail, waterproof and durable.",
             inStock: true,
             onSale: true
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "GamerGear",
             price: 1899.99,
             rating: 4.9,
-            imageUrl: "aimage15.jpeg",
+            imageUrl: "Aimage15.jpeg",
             description: "Unleash the ultimate gaming experience with top-tier performance.",
             inStock: true,
             onSale: false
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "ChargeFast",
             price: 35.00,
             rating: 4.0,
-            imageUrl: "aimage16.jpeg",
+            imageUrl: "Aimage16.jpeg",
             description: "Effortless charging for your compatible devices.",
             inStock: true,
             onSale: false
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "BrightLights",
             price: 15.00,
             rating: 4.2,
-            imageUrl: "aimage17.jpeg",
+            imageUrl: "Aimage17.jpeg",
             description: "Customize your ambiance with millions of colors and smart controls.",
             inStock: true,
             onSale: true
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "SoundWave",
             price: 110.00,
             rating: 4.7,
-            imageUrl: "aimage18.jpeg",
+            imageUrl: "Aimage18.jpeg",
             description: "Capture crisp, clear audio for podcasts, streaming, and music.",
             inStock: true,
             onSale: false
@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "CleanBot",
             price: 320.00,
             rating: 4.3,
-            imageUrl: "aimage19.jpeg",
+            imageUrl: "Aimage19.jpeg",
             description: "Effortless cleaning with smart mapping and app control.",
             inStock: true,
             onSale: false
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
             brand: "AudioPro",
             price: 85.00,
             rating: 4.6,
-            imageUrl: "aimage20.jpeg",
+            imageUrl: "Aimage20.jpeg",
             description: "Big sound in a compact design, perfect for outdoor adventures.",
             inStock: true,
             onSale: false
