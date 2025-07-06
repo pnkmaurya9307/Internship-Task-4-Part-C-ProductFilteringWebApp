@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteTech Product Catalog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>EliteTech Catalog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container product-page-layout">
+        <aside class="sidebar">
+            <h2><i class="fas fa-filter"></i> Filters</h2>
+
+            <div class="filter-group">
+                <h3>Search Products</h3>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search by name...">
+                    <button id="searchButton"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Categories</h3>
+                <div class="filter-options" id="categoryFilter">
+                    </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <div class="price-range">
+                    <input type="range" id="priceRange" min="0" max="1000" value="1000">
+                    <div class="price-display">
+                        <span>Min: $<span id="minPriceDisplay">0</span></span>
+                        <span>Max: $<span id="maxPriceDisplay">1000</span></span>
+                    </div>
+                    <button id="applyPriceFilter" class="apply-btn">Apply Price</button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Customer Rating</h3>
+                <div class="filter-options" id="ratingFilter">
+                    <label><input type="checkbox" data-rating="4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> & Up</label>
+                    <label><input type="checkbox" data-rating="3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> & Up</label>
+                    <label><input type="checkbox" data-rating="2"><i class="fas fa-star"></i><i class="fas fa-star"></i> & Up</label>
+                    <label><input type="checkbox" data-rating="1"><i class="fas fa-star"></i> & Up</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Brands</h3>
+                <div class="filter-options" id="brandFilter">
+                    </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Availability</h3>
+                <div class="filter-options">
+                    <label><input type="checkbox" id="inStockFilter"> In Stock</label>
+                    <label><input type="checkbox" id="onSaleFilter"> On Sale</label>
+                </div>
+            </div>
+
+            <button id="clearFilters" class="clear-btn"><i class="fas fa-times-circle"></i> Clear All Filters</button>
+
+        </aside>
+
+        <section class="product-listing-section">
+            <div class="sort-controls">
+                <span>Sort by:</span>
+                <select id="sortSelect">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating-desc">Rating: High to Low</option>
+                    <option value="name-asc">Name: A-Z</option>
+                    <option value="name-desc">Name: Z-A</option>
+                </select>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <div class="no-products-found" id="noProductsFound" style="display: none;">
+                    <p><i class="fas fa-exclamation-circle"></i> No products found matching your criteria.</p>
+                </div>
+            </div>
+
+            <div class="pagination" id="pagination">
+                </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy;2025 @Pankaj9307. All rights reserved.</p>
+        </div>
+    </footer>
+ <script src="script.js"></script>
+</body>
+</html>
