@@ -16,8 +16,7 @@ A simple web application that lets users **browse and filter products** based on
 ## Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript  
-- **Backend**: (Optional) Node.js / Express  
-- **Database**: (Optional) JSON / MongoDB  
+
 
 ---
 
